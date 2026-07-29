@@ -8,3 +8,6 @@ Este proyecto nace con el objetivo de exponer como la automatizacion puede optim
 
 La solucion integra wazu como plataforma SIEM y n8n como motor de automatizacion , conectados median una red privada utilizando Wireguard. Sibre esta estructura se ejecutan distintos tipos de ataques , con el proposito de generar eventos reales, validar las detecciones y desarrollar playbooks que automaticen las tareas repetitivas 
 
+
+
+<img width="1300" height="714" alt="infra de proyecto SOC-Autom-Play (2)" src="https://github.com/user-attachments/assets/8e9cf9f7-bc75-44e7-8dc7-17bb0043fd20" />
