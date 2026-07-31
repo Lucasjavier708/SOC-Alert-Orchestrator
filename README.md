@@ -2,7 +2,7 @@
 <img width="1500" height="480" alt="imagen" src="https://github.com/user-attachments/assets/e262e766-b143-46f9-a74b-be3824065dee" />
 
 
-# SOC-Alert-Orchestrator
+#SOC Automation Playbook |
 
 
 
