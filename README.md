@@ -4,10 +4,21 @@
 
 
 
-Este proyecto nace con el objetivo de exponer como la automatizacion puede optimizar procesos. A traves de un mi laboratorio que esta diseñado sobre una estructura fisica y entorno controlado , se implementa el flujo que permite recibir alertas de seguridad, procesarlas , automaticamente , enriquecer la informacion disponible y facilitar el analicis inicial antes de la investigacion 
 
-La solucion integra wazu como plataforma SIEM y n8n como motor de automatizacion , conectados median una red privada utilizando Wireguard. Sibre esta estructura se ejecutan distintos tipos de ataques , con el proposito de generar eventos reales, validar las detecciones y desarrollar playbooks que automaticen las tareas repetitivas 
+Este proyecto nace con el objetivo de demostrar como la automatizacion puede optimizar los procesos de un Centro de operaciones de Seguridad (SOC)
+
+Para ello dentro de mi [HomeLab-SOC](https://github.com/Lucasjavier708/HomeLab-SOC.git) desarrollo distintos escenarios de ataques para validar las capacidades de deteccion , analisis y respuesta automatizada. 
+
+A través de un flujo automatizado, el proyecto recibe alertas de seguridad, las enriquece con fuentes de Threat Intelligence y facilita el análisis inicial del incidente reduciendo los tiempos de evaluación. 
+
+La solución integra Wazuh como plataforma SIEM, n8n como motor de automatización SOAR y Jira como plataforma de gestión de incidentes, donde se documentan y notifican automáticamente los eventos relevantes, comunicándose mediante una red privada (VPN) utilizando WireGuard.
 
 
+El objetivo es reproducir el flujo operativo de un analista SOC durante las primeras etapas de gestión de un incidente:
 
-<img width="1300" height="714" alt="infra de proyecto SOC-Autom-Play (2)" src="https://github.com/user-attachments/assets/8e9cf9f7-bc75-44e7-8dc7-17bb0043fd20" />
+- Recepción de alertas y triage.
+- Enriquecimiento mediante fuentes de Threat Intelligence.
+- Correlación de la información obtenida.
+- Documentación automática de los   incidentes relevantes mediante Jira como plataforma de ticketing.
+
+
