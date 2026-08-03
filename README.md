@@ -1,5 +1,7 @@
 
-<img width="1500" height="480" alt="imagen" src="https://github.com/user-attachments/assets/e262e766-b143-46f9-a74b-be3824065dee" />
+<img width="1580" height="490" alt="Orch-SOc" src="https://github.com/user-attachments/assets/4db3a239-d73a-4469-a29f-ff0387a5b185" />
+
+
 
 
 # SOC Automation Playbook |
@@ -22,5 +24,19 @@ El objetivo en este caso es  reproducir el flujo operativo de un analista SOC du
 - Enriquecimiento mediante fuentes de Threat Intelligence.
 - Correlación de la información obtenida.
 - Documentación automática de los   incidentes relevantes mediante Jira como plataforma de ticketing.
+
+
+# Arquitectura
+
+Arquitectura del Laboratorio 
+
+- En la red de laboratorio se ejecutan los escenarios de ataques. Los agantes de wazuh monitorean la actividad y mandan las alertas al SIEM
+- EN la red de estudio esta el Wazuh manager particularmente en en la PC de estudio , este recibe las alertas por los agentes y las envia al nodo de automatizacion para su procesamiento
+- En la Pc 5 se encuentra el woorkflow de automatizacion , donde las alertas son procesadas , enriquecidas , con threat intelligence , correlacionadas y documentadas automaticamente en jira , quedando lista para su analisis
+
+<p align="center">
+  <img width="1500 height="300" alt="infra de proyecto SOC-Autom-Play (2)" src="https://github.com/user-attachments/assets/2b4a8415-b066-4927-bada-dd44761823ed" />
+
+</p>
 
 
